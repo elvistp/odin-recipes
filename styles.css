@@ -1,0 +1,48 @@
+body {
+    background-color: #f8f1e4; /* Color crema para dar un estilo cálido */
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/grunge_wall.png'); /* Textura sutil */
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Georgia', serif; /* Fuente elegante */
+    color: #5a3e36; /* Color marrón oscuro para el texto */
+    padding: 20px;
+}
+
+/* Contenedor principal del libro de recetas */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad para resaltar contenido */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Títulos de las recetas */
+h1, h2 {
+    font-family: 'Pacifico', cursive; /* Fuente manuscrita elegante */
+    text-align: center;
+}
+
+/* Mejoramos los párrafos */
+p {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/* Lista de recetas */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Enlaces de recetas */
+a {
+    text-decoration: none;
+    color: #c04b29; /* Rojo terracota */
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff7043;
+}
